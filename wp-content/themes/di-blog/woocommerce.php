@@ -1,5 +1,6 @@
 <?php
 get_header();
+
 // is_product - Returns true when viewing a single product.
 if( is_product() ) {
 
@@ -14,7 +15,7 @@ if( is_product() ) {
 	}
 	?>
 	<div class="<?php echo $woo_pre_cls; ?>" >
-	<?php woocommerce_content(); ?>
+		<?php woocommerce_content(); ?>
 	</div>
 
 	<?php
