@@ -1,0 +1,127 @@
+{
+    "key": "group_5ee8ee2692f9a",
+    "title": "Detalles Ventanas",
+    "fields": [
+        {
+            "key": "field_5ee8ee26a66e9",
+            "label": "Medidas",
+            "name": "medidas",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1x1": "1 x 1 mts",
+                "120x1": "1,20 x 1 mts",
+                "150x1": "1,50 x 1 mts",
+                "2x1": "2 x 1 mts"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "array",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee8ee26a6aa5",
+            "label": "Cantidad Paños",
+            "name": "cantidad_panos",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Uno",
+                "2": "Dos",
+                "3": "Tres",
+                "4": "Cuatro"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "array",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ee8ee26a6edc",
+            "label": "Corrediza",
+            "name": "corrediza",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "corrediza": "Corrediza",
+                "de_abrir": "De abrir"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "array",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee8ee26a7278",
+            "label": "Celosia",
+            "name": "celosia",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "con_celosia": "Con Celosia",
+                "sin_celosia": "Sin Celosia",
+                "bariloche": "Con Postigo Bariloche"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "array",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "product_cat:ventanas"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1592406432
+}

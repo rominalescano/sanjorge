@@ -1,0 +1,161 @@
+{
+    "key": "group_5ee7cc72bc810",
+    "title": "Detalles Puertas y Portones",
+    "fields": [
+        {
+            "key": "field_5ee8d8c202df8",
+            "label": "Medidas",
+            "name": "medidas",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "085x205": "0,85 x 2,05 mts",
+                "090x205": "0,90 x 2,05 mts",
+                "1x205": "1 x 2,05 mts",
+                "160x205": "1,60 x 2,05 mts",
+                "250x205": "2,50 x 2,05 mts",
+                "260x205": "2,60 x 2,05 mts",
+                "270x205": "2,70 x 2,05 mts",
+                "280x205": "2,80 x 2,05 mts",
+                "290x205": "2,90 x 2,05 mts",
+                "3x205": "3 x 2,05 mts"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "array",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee7cc7fc010c",
+            "label": "Cantidad Paños",
+            "name": "cantidad_panos",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Uno",
+                "2": "Dos",
+                "3": "Tres",
+                "4": "Cuatro"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "array",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ee7cd0ac010e",
+            "label": "Vidriada",
+            "name": "vidriada",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ciega": "Ciega",
+                "vidriada_sol": "Con vidrios repartidos (Modelo Rayo de Sol)",
+                "vidriada_carcelero": "Con vidrios repartidos (Modelo Carcelero)"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "array",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee828c2431ad",
+            "label": "Rajas",
+            "name": "rajas",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "sin_raja": "Sin Raja",
+                "1_raja": "Con una Raja",
+                "2_raja": "Con doble Raja"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "array",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee7cd3ec010f",
+            "label": "Paneles Torneados",
+            "name": "paneles_torneados",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "product_cat:puertas"
+            }
+        ],
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "product_cat:portones"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1592406426
+}

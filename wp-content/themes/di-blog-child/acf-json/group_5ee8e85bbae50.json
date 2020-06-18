@@ -1,0 +1,160 @@
+{
+    "key": "group_5ee8e85bbae50",
+    "title": "Detalles Puertas Balcón",
+    "fields": [
+        {
+            "key": "field_5ee8e85bc9a3d",
+            "label": "Medidas",
+            "name": "medidas",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "085x205": "0,85 x 2,05 mts",
+                "090x205": "0,90 x 2,05 mts",
+                "1x205": "1 x 2,05 mts",
+                "160x205": "1,60 x 2,05 mts",
+                "250x205": "2,50 x 2,05 mts",
+                "260x205": "2,60 x 2,05 mts",
+                "270x205": "2,70 x 2,05 mts",
+                "280x205": "2,80 x 2,05 mts",
+                "290x205": "2,90 x 2,05 mts",
+                "3x205": "3 x 2,05 mts"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee8e85bc9e20",
+            "label": "Cantidad Paños",
+            "name": "cantidad_panos",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "Uno",
+                "2": "Dos",
+                "3": "Tres",
+                "4": "Cuatro"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ee8e85bca216",
+            "label": "Vidriada",
+            "name": "vidriada",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ciega": "Ciega",
+                "vidriada_sol": "Con vidrios repartidos (Modelo Rayo de Sol)",
+                "vidriada_carcelero": "Con vidrios repartidos (Modelo Carcelero)"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee8e879682de",
+            "label": "Corrediza",
+            "name": "corrediza",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "corrediza": "Corrediza",
+                "de_abrir": "De abrir"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ee8e9b5682df",
+            "label": "Celosia",
+            "name": "celosia",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "con_celosia": "Con Celosia",
+                "sin_celosia": "Sin Celosia",
+                "bariloche": "Con Postigo Bariloche"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "product_cat:puerta_balcon"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1592406421
+}
